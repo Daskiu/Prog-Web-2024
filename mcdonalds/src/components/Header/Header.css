@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: #27251F;
+    padding: 1em;
+}
+
+.menu-btn{
+    height: 45px;
+    width: 45px;
+}
+
+.menu{
+    height: 40px;
+}
+
+.logo{
+    height: 60px;
+    margin: auto;
+}
+
+.mcdelivery{
+    background-color: #FFC72C;
+    height: 35px;
+    width: 85px;
+    border: none;
+    border-radius: 0.3em;
+}
+
+.header-nav{
+    background-color: aqua;
+}
+
+.uluno{
+    color: #fff;
+    list-style: none;
+    position: absolute;
+    width: 55%;
+    border: #fff solid 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.uldos{
+    color: #fff;
+    list-style: none;
+    position: absolute;
+    width: 55%;
+    border: #fff solid 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    top: 3em;
+}
