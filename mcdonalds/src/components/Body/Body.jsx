@@ -1,11 +1,12 @@
 import React from "react";
-import {Card} from "../Card/Card"
+import {Cards} from "../Card/Card"
+import {Slides} from "../Slide/Slide"
 
 export function Body(){
     return(
         <main>
-            <h1>The body exist</h1>
-            <Card/>
+            <Slides/>
+            <Cards/>
         </main>
     )
 }

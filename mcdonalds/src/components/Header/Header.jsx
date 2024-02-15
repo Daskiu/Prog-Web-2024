@@ -10,20 +10,20 @@ export function Header(){
                 <img className="menu" src={menu}/>
             </button>
 
-            <nav1>
+            <nav className="nav1">
                 <ul className="uluno">
                     <li>Trabaja con Nosotros</li>
                     <li>Contacto</li>
                 </ul>
-            </nav1>
-            <nav2>
+            </nav>
+            <nav className="nav2">
                 <ul className="uldos">
                     <li>Productos</li>
                     <li>Locales</li>
                     <li>En familia</li>
                     <li>Nosotros</li>
                 </ul>
-            </nav2>
+            </nav>
                 
             <img className="logo" src={logo}/>
 
