@@ -10,24 +10,22 @@ export function Header(){
                 <img className="menu" src={menu}/>
             </button>
 
-            <nav className="nav1">
-                <ul className="uluno">
-                    <li>Trabaja con Nosotros</li>
-                    <li>Contacto</li>
-                </ul>
-            </nav>
-            <nav className="nav2">
-                <ul className="uldos">
-                    <li>Productos</li>
-                    <li>Locales</li>
-                    <li>En familia</li>
-                    <li>Nosotros</li>
-                </ul>
-            </nav>
-                
             <img className="logo" src={logo}/>
+            
+                <nav className="header-nav1">
+                    <ul className="header-list1">
+                        <li>Trabaja con Nosotros</li>
+                        <li>Contacto</li>
+                    </ul>
 
-            <button className="mcdelivery">McDelivery</button>
+                    <ul className="header-list2">
+                        <li>Productos</li>
+                        <li>Locales</li>
+                        <li>En familia</li>
+                        <li>Nosotros</li>
+                    </ul>
+                </nav>
+            <button className="header-btn">McDelivery</button>
         </header>
     )
 }

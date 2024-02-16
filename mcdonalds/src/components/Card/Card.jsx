@@ -11,19 +11,19 @@ const images = [img1, img2, img3, img4, img5]
 
 export function Cards (){
     return(
-        <div className="cardContainer">
+        <div className="card-container">
             {
                 images.map((images) =>
-                <div className="mainDiv" key={images}>
-                    <img className="cardImg" src={images} alt="stockImage"/>
-                    <div className="textDiv">
-                        <h2 className="cardTitle">
+                <div className="card-div" key={images}>
+                    <img className="card-img" src={images} alt="stockImage"/>
+                    <div className="card-text">
+                        <h2 className="card-title">
                             Title
                         </h2>
-                        <p className="cardDesc">
+                        <p className="card-desc">
                             Description of the card
                         </p>
-                        <button className="buttonCard">Ver más</button>
+                        <button className="card-button">Ver más</button>
                     </div>
                 </div>)
             }
