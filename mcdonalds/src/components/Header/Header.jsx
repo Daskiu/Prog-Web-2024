@@ -12,7 +12,7 @@ export function Header(){
 
             <img className="logo" src={logo}/>
             
-                <nav className="header-nav1">
+                <nav className="header-nav">
                     <ul className="header-list1">
                         <li>Trabaja con Nosotros</li>
                         <li>Contacto</li>

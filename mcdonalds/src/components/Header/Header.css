@@ -7,9 +7,16 @@ header{
     display: flex;
     justify-content: space-between;
     position: relative;
-    background-color: #27251F;
+    background-color: #FFFFFF;
     padding: 1em;
-    height: 90px;
+    height: 30px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
+
+.header-nav1{
+    display: flex;
+    position: absolute;
+    gap: 4rem;
 }
 
 .menu-btn{
@@ -17,6 +24,7 @@ header{
     width: 45px;
     margin-top: 3.5%;
     margin-left: 5%;
+    cursor: pointer;
 }
 
 .menu{
@@ -29,11 +37,17 @@ header{
 }
 
 .header-btn{
-    background-color: #FFC72C;
-    height: 35px;
-    width: 85px;
+    background-color: #FFBC0D;
+    color: rgb(0, 0, 0, .7);
+    font-size: 12px;
+    height: 33px;
+    width: 100px;
     border: none;
     border-radius: 0.3em;
+    margin-left: auto;
+    margin-right: 10px;
+    cursor: pointer;
+    justify-content: center;
 }
 
 .header-list1{
@@ -65,10 +79,13 @@ header{
 }
 
 @media (min-width : 762px){
+    .header{
+        height: 120px;
+    }
     .logo{
-        height: 60px;
-        margin-left: 10%;
-        margin: 0;
+        height: 80px;
+        margin-left: 10.2%;
+        margin-top: 0.8%;
     }
 
     .menu-btn{
@@ -91,9 +108,15 @@ header{
         left: 0;
     }
 
-    .header-nav1{
+    .header-nav{
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
+    }
+
+    .header-btn{
+        background-color: #FFBC0D;
+        height: 48px;
+        width: 150px;
     }
 }
