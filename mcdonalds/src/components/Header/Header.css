@@ -13,18 +13,24 @@ header{
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
 }
 
-.header-nav1{
+.header-nav{
     display: flex;
     position: absolute;
-    gap: 4rem;
+    flex-direction: column;
+    left: 0;
+    top: 50px;
+    width: 100%;
 }
 
 .menu-btn{
     height: 45px;
     width: 45px;
-    margin-top: 3.5%;
+    margin-top: -0.5%;
     margin-left: 5%;
     cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background-color: #FFFFFF;
 }
 
 .menu{
@@ -52,40 +58,30 @@ header{
 
 .header-list1{
     display: flex;
-    position: absolute;
     flex-direction: column;
-    color: #fff;
     list-style: none;
-    width: 55%;
     border: #fff solid 2px;
     background-color: aqua;
     gap: 1em;
-    left: 7.3%;
-    margin-top: 3.4%;
 }
 
 .header-list2{
     display: flex;
     flex-direction: column;
-    position: absolute;
-    color: #fff;
     list-style: none;
-    width: 55%;
     border: #fff solid 2px;
     background-color: aquamarine;
     gap: 1em;
-    left: 7.3%;
-    margin-top: 12%;
 }
 
 @media (min-width : 762px){
-    .header{
+    header{
         height: 120px;
     }
     .logo{
-        height: 80px;
-        margin-left: 10.2%;
-        margin-top: 0.8%;
+        height: 63px;
+        margin-left: 10.1%;
+        margin-top: 0.7%;
     }
 
     .menu-btn{
@@ -110,8 +106,11 @@ header{
 
     .header-nav{
         display: flex;
+        position: relative;
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 2rem;
+        padding-left: 3%;
+        margin-top: -2%;
     }
 
     .header-btn{

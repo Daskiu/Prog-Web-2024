@@ -22,6 +22,8 @@
     display: flex;
     flex-direction: column;
     margin-left: 2.5%;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .card-img{
@@ -38,10 +40,10 @@
     .card-container{
         width: 100%;
         height: 100%;
-        overflow-x: scroll;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
         gap: 5%;
+        overflow: hidden;
     }
 
     .card-container::-webkit-scrollbar{

@@ -16,11 +16,11 @@ const slides = [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, 
 
 export function Slides (){
     return(
-        <div className="slideContainer">
+        <div className="slide-container">
             {
                 slides.map((slides) =>
-                <div className="mainDiv2" key={slides}>
-                    <img className="slideImg" src={slides} alt="stockSlides"/>
+                <div className="main-div2" key={slides}>
+                    <img className="slide-img" src={slides} alt="stockSlides"/>
                 </div>)
             }
         </div>
