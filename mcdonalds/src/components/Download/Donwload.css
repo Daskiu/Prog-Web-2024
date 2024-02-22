@@ -1,0 +1,15 @@
+.download-container {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.logo2-img {
+    display: flex;
+    position: absolute;
+    height: 80px;
+    left: 10%;
+    top: 10%;
+}

@@ -76,7 +76,7 @@ header{
 
 @media (min-width : 762px){
     header{
-        height: 120px;
+        height: 90px;
     }
     .logo{
         height: 63px;
