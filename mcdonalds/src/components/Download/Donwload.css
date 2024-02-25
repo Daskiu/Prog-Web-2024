@@ -3,13 +3,69 @@
     position: relative;
     margin-top: 50px;
     height: 100px;
-    background-color: blueviolet;
+    background-color: #FFBC0D;
 }
 
 .logo2-img {
     display: flex;
     position: absolute;
-    height: 80px;
-    left: 10%;
-    top: 10%;
+    height: 60px;
+    left: 5%;
+    top: 25%;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: 9px;
+    left: 23%;
+    top: 30%;
+    gap: 0.5rem;
+}
+
+.download-btn{
+    display: flex;
+    position: absolute;
+    border: none;
+    border-radius: 0.3em;   
+    background-color: #FFFFFF;
+    font-size: 10px;
+    padding: 3%;
+    left: 75%;
+    top: 30%;
+}
+
+@media (min-width : 762px){
+    .download-container{
+        height: 200px;
+    }
+
+    .logo2-img{
+        height: 160px;
+        top: 10%;
+        left: 10%;
+    }
+
+    .textos {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        font-size: 20px;
+        margin-left: 10%;
+        top: 30%;
+        gap: 1rem;
+    }
+
+    .download-btn{
+        display: flex;
+        position: absolute;
+        border: none;
+        border-radius: 0.3em;   
+        background-color: #FFFFFF;
+        font-size: 20px;
+        padding: 1%;
+        margin-left: 3%;
+        top: 35%;
+    }
 }

@@ -13,13 +13,20 @@ header{
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
 }
 
-.header-nav{
+header nav{
     display: flex;
     position: absolute;
     flex-direction: column;
     left: 0;
+    padding-left: 2em;
+    padding-top: 1em;
     top: 50px;
     width: 100%;
+    background-color: #FFFFFF;
+}
+
+header nav.hidden{
+    display: none;
 }
 
 .menu-btn{
@@ -61,7 +68,6 @@ header{
     flex-direction: column;
     list-style: none;
     border: #fff solid 2px;
-    background-color: aqua;
     gap: 1em;
 }
 
@@ -70,7 +76,6 @@ header{
     flex-direction: column;
     list-style: none;
     border: #fff solid 2px;
-    background-color: aquamarine;
     gap: 1em;
 }
 
@@ -78,6 +83,7 @@ header{
     header{
         height: 90px;
     }
+    
     .logo{
         height: 63px;
         margin-left: 10.1%;
@@ -104,18 +110,23 @@ header{
         left: 0;
     }
 
-    .header-nav{
-        display: flex;
+    header nav{
+        display: flex !important;
         position: relative;
         flex-direction: column;
         gap: 2rem;
         padding-left: 3%;
         margin-top: -2%;
+        background-color: transparent;
     }
 
     .header-btn{
         background-color: #FFBC0D;
-        height: 48px;
-        width: 150px;
+        height: 58px;
+        width: 200px;
+        font-size: 18px;
+        margin-right: 220px;
+        margin-bottom: 5px;
+        padding: 15px;
     }
 }
