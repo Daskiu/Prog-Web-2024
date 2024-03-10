@@ -1,8 +1,13 @@
 import React from "react";
+import {Form} from "../Form/Form"
+import {List} from "../List/List"
 import './Body.css'
 
 export function Body() {
     return (
-        <h1>Body is here</h1>
+        <div className="Todo-wrapper">
+            <Form/>
+            <List/>
+        </div>
     )
 }
